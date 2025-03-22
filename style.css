@@ -1,6 +1,6 @@
 .body {
-    display: flex;
-    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -10,14 +10,18 @@
 .card-dark {
     display: flex;
     flex-direction: column;
+    background: #1F2937;
 }
 
 .card-light-1 {
-    background: #1F2937;
-    font: roboto;
-    color: #F9FAF8;
+    color: white;
     flex-direction: row;
     flex: 1;
+}
+
+.image {
+    width: 100px;
+    height: fit-content;
 }
 
 .card-mid {
@@ -25,9 +29,10 @@
 }
 
 .card-light-2 {
-    background: #F9FAF8;
+    background: white;
 }
 
-.image {
-    flex: 1
+.footer {
+    background: #1F2937;
 }
+
