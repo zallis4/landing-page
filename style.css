@@ -1,3 +1,15 @@
 .flex-container {
-    font: roboto
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container div {
+    background: #1F2937;
+    font: roboto;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.flex-item {
+    flex: 1;
 }
