@@ -1,9 +1,14 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
 }
 
-.flex-container div {
+.header_bar {
     background: #1F2937;
     font: roboto;
     color: #F9FAF8;
