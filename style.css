@@ -3,18 +3,31 @@
     flex-direction: column;
 }
 
-.flex-container {
+.header {
+    background: #1F2937;
+}
+
+.card-dark {
     display: flex;
     flex-direction: column;
 }
 
-.header_bar {
+.card-light-1 {
     background: #1F2937;
     font: roboto;
     color: #F9FAF8;
+    flex-direction: row;
     flex: 1;
 }
 
-.flex-item {
-    flex: 1;
+.card-mid {
+    background: #E5E7EB;
+}
+
+.card-light-2 {
+    background: #F9FAF8;
+}
+
+.image {
+    flex: 1
 }
